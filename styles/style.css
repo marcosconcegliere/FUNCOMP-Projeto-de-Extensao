@@ -49,10 +49,14 @@ main {
 }
 
 #apresentacao {
-  background-color: rgb(206, 205, 205);
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../assets/images/788x430/0-TI.webp) no-repeat;
+  background-size: cover;
+  background-position: center center;
   display: flex;
   width: 100%;
-  height: max-content;
+  height: 430px;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
@@ -61,11 +65,15 @@ main {
 #apresentacao h1 {
   margin: 5px;
   text-align: center;
+  color: #ffffff;
+  font-size: 4em;
 }
 
 #apresentacao p {
   margin: 5px;
   text-align: center;
+  color: #ffffff;
+  font-size: 2em;
 }
 
 .secao {
