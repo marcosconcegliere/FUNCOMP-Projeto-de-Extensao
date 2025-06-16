@@ -1,30 +1,74 @@
 :root {
   --primary-color: #da2c43;
+  --link-color: #0067c2;
+  --main-ligth: #fbfbfb;
+  --text-ligth: #ffffff;
+  --main-dark: #101010;
+  --text-dark: #000000;
+  --shadow: 1px 1px 5px 0px #000000;
 }
 
 html {
   scroll-behavior: smooth;
   font: 16px 'Montserrat', sans-serif;
-
   -webkit-tap-highlight-color: transparent;
 }
 
 body {
   min-height: 100svh;
+  background-color: var(--main-ligth);
 }
 
+body main {
+  display: flex;
+  flex-direction: column;
+}
+
+a:not(.btn, nav a),
+a:visited:not(.btn, .btn, nav a) {
+  color: var(--link-color);
+  font-weight: 500;
+  text-decoration: 1px underline;
+}
+
+h2 {
+  padding: 2rem 1rem 0 1rem;
+}
+
+/* logo-1 */
+.logo-1 {
+  height: 1.8rem;
+  width: auto;
+}
+
+/* logo-2 */
+.logo-2 {
+  height: 1rem;
+  width: auto;
+}
+
+/* button */
+.btn {
+  display: inline-flex;
+  color: var(--text-ligth);
+  background-color: var(--primary-color);
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+}
+
+/* nav */
 nav {
   position: sticky;
   top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: #FFFFFF99;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  box-shadow: 3px 0px 5px #000;
-  width: 100%;
-  padding: 1rem;
+  box-shadow: var(--shadow);
+  padding: 0.8rem 1rem 0.5rem 1rem;
 }
 
 nav a {
@@ -32,123 +76,83 @@ nav a {
   color: black;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
-#logo {
-  width: 62px;
-}
-
-main {
+/* banner */
+.banner {
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  background-color: rgb(255, 255, 255);
-  width: 100%;
-  height: 100vh;
-}
-
-#apresentacao {
-  background: 
-  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../assets/images/788x430/0-TI.webp) no-repeat;
+  justify-content: center;
+  align-items: center;
+  min-height: 15rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/788x430/0-TI.webp");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.banner h1,
+.banner p {
+  text-align: center;
+}
+
+.banner p {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+/* text-container */
+.text-container {
   display: flex;
-  width: 100%;
-  height: 430px;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem 0 1rem;
+}
+
+/* card */
+.card-container {
+  padding: 1rem;
+}
+
+.card {
+  box-shadow: var(--shadow);
+  border-radius: 1rem;
+}
+
+.card header {
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
-}
-
-#apresentacao h1 {
-  margin: 5px;
   text-align: center;
-  color: #ffffff;
-  font-size: 3em;
+  height: 10.5rem;
+  padding: 0.5rem;
 }
 
-#apresentacao p {
-  margin: 5px;
-  text-align: center;
-  color: #ffffff;
-  font-size: 2em;
-}
-
-.secao {
-  background-color: #ffffff;
+.card main {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: max-content;
-  padding: 20px;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
-.secao h2 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-.secao p {
-  margin-top: 10px;
-}
-
-.secao-curso {
-  background-color: #cecece;
-  display: flex;
-  flex-direction: column;
-  height: max-content;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 10px;
-  box-shadow: 0px 5px 0px #838383;
-}
-
-.secao-curso h1 {
-  text-align: center;
-}
-
-.secao-curso p {
-  margin-top: 10px;
-}
-
-#div-button-curso {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-}
-
-button {
-  display: flex;
-  margin-top: 20px;
-  border: transparent;
-  background-color: var(--primary-color);
-  width: max-content;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-button h3 {
-  color: #ffffff;
-}
-
-#logo-nome {
-  width: 62px;
-}
-
+/* footer */
 footer {
-  background-color: #cecece;
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   width: 100%;
-  height: max-content;
-  padding: 20px;
+  padding: 2rem 1rem 0.8rem 1rem;
+  background-color: hsl(30, 80%, 60%);
+}
+
+footer * {
+  padding: 0;
 }
 
 footer h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+footer p {
+  font-size: 0.8rem;
 }
