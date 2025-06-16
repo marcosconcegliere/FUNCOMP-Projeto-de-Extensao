@@ -1,0 +1,41 @@
+/*headers dos cards do index*/
+
+.ciencia-da-computacao {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/1-ciencia-da-computacao.webp");
+}
+
+.engenharia-de-software {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/2-engenharia-de-software.webp");
+}
+
+.ciencia-de-dados {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/3-ciencia-de-dados.webp");
+}
+
+.sistemas-de-informacao {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/4-sistemas-de-informacao.webp")
+}
+
+.analise-e-desenvolvimento-de-sistemas {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/5-analise-e-desenvolvimento-de-sistemas.webp")
+}
+
+.engenharia-da-computacao {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/6-engenharia-da-computacao.webp")
+}
+
+.big-data-ia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/7-big-data-ia.webp")
+}
+
+.seguranca-da-informacao {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/8-seguranca-da-informacao.webp")
+}
+
+.redes-de-computadores {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/9-redes-de-computadores.webp")
+}
+
+.jogos-digitais {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/10-jogos-digitais.webp")
+}
