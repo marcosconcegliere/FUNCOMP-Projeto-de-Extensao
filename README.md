@@ -17,8 +17,8 @@ Site comparando os principais cursos de computação, ajudando estudantes a esco
 - Jogos Digitais
 
 ## 👥 Integrantes do Grupo
-1. [Alonso Misael Acuna Pezo]
-2. [Antonio Figueiredo Concegliere]
-3. [Izabelly Rúbia Costa]
-4. [Paulo de Souza Stauffer Alberto]
-5. [Pedro Ivo Amaral Lima]
+1. Alonso Misael Acuna Pezo
+2. Antonio Figueiredo Concegliere
+3. Izabelly Rúbia Costa
+4. Paulo de Souza Stauffer Alberto
+5. Pedro Ivo Amaral Lima
