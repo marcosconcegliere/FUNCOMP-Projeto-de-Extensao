@@ -159,6 +159,11 @@ figcaption {
   font-size: 0.8rem;
 }
 
+.footer a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 /* logo-1 */
 .logo-1 {
   height: 1.8rem;
