@@ -74,6 +74,12 @@
   margin-bottom: 1rem;
 }
 
+.text a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+
+}
+
 /* image */
 .image {
   padding: 1rem 0.8rem;
