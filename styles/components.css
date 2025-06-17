@@ -70,14 +70,16 @@
   padding-left: 2rem;
 }
 
+.text .label {
+  padding-bottom: 0.8rem;
+}
+
 .text li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .text a {
-  text-decoration: underline;
   text-underline-offset: 2px;
-
 }
 
 /* image */
@@ -92,7 +94,7 @@ img {
 }
 
 figcaption {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 /* card */

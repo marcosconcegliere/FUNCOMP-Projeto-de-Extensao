@@ -29,5 +29,5 @@ a:not(.btn, nav a),
 a:visited:not(.btn, .btn, nav a) {
   color: var(--link-color);
   font-weight: 500;
-  text-decoration: 1px underline;
+  text-decoration: underline;
 }
