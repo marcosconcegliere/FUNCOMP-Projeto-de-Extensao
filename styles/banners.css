@@ -1,3 +1,5 @@
+/*headers dos cards do index*/
+
 .ciencia-da-computacao {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/1-ciencia-da-computacao.webp");
 }
@@ -37,3 +39,46 @@
 .jogos-digitais {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/10-jogos-digitais.webp")
 }
+
+/*banners*/
+
+.banner1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/1-ciencia-da-computacao.webp");
+}
+
+.banner2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/2-engenharia-de-software.webp");
+}
+
+.banner3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/3-ciencia-de-dados.webp");
+}
+
+.banner4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/4-sistemas-de-informacao.webp")
+}
+
+.banner5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/5-analise-e-desenvolvimento-de-sistemas.webp")
+}
+
+.banner6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/6-engenharia-da-computacao.webp")
+}
+
+.banner7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/7-big-data-ia.webp")
+}
+
+.banner8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/8-seguranca-da-informacao.webp")
+}
+
+.banner9 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/9-redes-de-computadores.webp")
+}
+
+.banner10 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/788x430/10-jogos-digitais.webp")
+}
+
