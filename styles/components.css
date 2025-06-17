@@ -96,6 +96,12 @@ img {
   border-radius: 1rem;
 }
 
+.card:hover {
+  transform: translateY(-4px) scale(1.01);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
 .card header {
   display: flex;
   flex-direction: column;
@@ -166,4 +172,16 @@ img {
   border-radius: 0.5rem;
   width: fit-content;
   /* background-color: hsl(260, 80%, 60%); */
+}
+
+/* imagem cc */
+#cc-notacorte {
+  width: 30%;
+}
+
+.imagemcc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0.8rem;
 }
