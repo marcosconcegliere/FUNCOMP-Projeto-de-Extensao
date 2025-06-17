@@ -10,7 +10,7 @@
   -webkit-backdrop-filter: blur(6px);
   box-shadow: var(--shadow);
   padding: 0.8rem 1rem 0.5rem 1rem;
-  background-color: hsl(-30, 80%, 60%);
+  /* background-color: hsl(-30, 80%, 60%); */
 }
 
 .nav a {
@@ -19,26 +19,16 @@
 }
 
 /* banner */
-.banner, 
-.banner1, 
-.banner2, 
-.banner3, 
-.banner4, 
-.banner5, 
-.banner6, 
-.banner7, 
-.banner8, 
-.banner9, 
-.banner10 {
+.banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 15rem;
   color: #ffffff;
-  background-color: hsl(0, 80%, 60%);
+  /* background-color: hsl(0, 80%, 60%); */
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -60,7 +50,7 @@
 /* heading */
 .h {
   padding: 2rem 1rem 1rem 1rem;
-  background-color: hsl(30, 80%, 60%);
+  /* background-color: hsl(30, 80%, 60%); */
 }
 
 /* text */
@@ -68,11 +58,11 @@
   display: flex;
   flex-direction: column;
   padding: 0 1rem 0 1rem;
-  background-color: hsl(60, 80%, 60%);
+  /* background-color: hsl(60, 80%, 60%); */
 }
 
 .text p {
-  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .text ul {
@@ -87,7 +77,7 @@
 /* image */
 .image {
   padding: 1rem 0.8rem;
-  background-color: hsl(90, 80%, 60%);
+  /* background-color: hsl(90, 80%, 60%); */
 }
 
 img {
@@ -98,7 +88,7 @@ img {
 /* card */
 .card-container {
   padding: 1rem;
-  background-color: hsl(130, 80%, 60%);
+  /* background-color: hsl(130, 80%, 60%); */
 }
 
 .card {
@@ -133,7 +123,7 @@ img {
 
 /* footer */
 .footer {
-  background-color: hsl(170, 80%, 60%);
+  /* background-color: hsl(170, 80%, 60%); */
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -157,14 +147,14 @@ img {
 .logo-1 {
   height: 1.8rem;
   width: auto;
-  background-color: hsl(200, 80%, 60%);
+  /* background-color: hsl(200, 80%, 60%); */
 }
 
 /* logo-2 */
 .logo-2 {
   height: 1rem;
   width: auto;
-  background-color: hsl(230, 80%, 60%);
+  /* background-color: hsl(230, 80%, 60%); */
 }
 
 /* button */
@@ -175,5 +165,5 @@ img {
   padding: 0.5rem 0.8rem;
   border-radius: 0.5rem;
   width: fit-content;
-  background-color: hsl(260, 80%, 60%);
+  /* background-color: hsl(260, 80%, 60%); */
 }
