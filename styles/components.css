@@ -85,6 +85,10 @@ img {
   height: auto;
 }
 
+figcaption {
+  font-size: 0.8rem;
+}
+
 /* card */
 .card-container {
   padding: 1rem;
@@ -174,14 +178,3 @@ img {
   /* background-color: hsl(260, 80%, 60%); */
 }
 
-/* imagem cc */
-#cc-notacorte {
-  width: 30%;
-}
-
-.imagemcc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem 0.8rem;
-}
