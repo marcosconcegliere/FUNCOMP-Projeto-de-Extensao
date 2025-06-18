@@ -103,12 +103,6 @@ figcaption {
   border-radius: 1rem;
 }
 
-.card:hover {
-  transform: translateY(-4px) scale(1.01);
-  transition: all 0.4s ease-in-out;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-}
-
 .card header {
   display: flex;
   flex-direction: column;
@@ -185,3 +179,10 @@ figcaption {
   width: fit-content;
   /* background-color: hsl(260, 80%, 60%); */
 }
+
+/* 
+.card:hover {
+  transform: translateY(-4px) scale(1.01);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} */
