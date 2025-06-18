@@ -26,10 +26,10 @@
   align-items: center;
   min-height: 15rem;
   color: #ffffff;
-  /* background-color: hsl(0, 80%, 60%); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /* background-color: hsl(0, 80%, 60%); */
 }
 
 .banner h1,
@@ -40,11 +40,6 @@
 .banner p {
   font-weight: 600;
   font-size: 1.2rem;
-}
-
-/* banner (trocar "url" e nome do "id") */
-.banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/mobile/banners/0-TI-788x430.webp");
 }
 
 /* heading */
@@ -111,7 +106,7 @@ figcaption {
 .card:hover {
   transform: translateY(-4px) scale(1.01);
   transition: all 0.4s ease-in-out;
-  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card header {
@@ -190,4 +185,3 @@ figcaption {
   width: fit-content;
   /* background-color: hsl(260, 80%, 60%); */
 }
-
